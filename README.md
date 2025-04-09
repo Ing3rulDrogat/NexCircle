@@ -35,6 +35,54 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details. -->
 
-## Project
+<div align="center">
+  <h1>NexCircle 🌐</h1>
+  <p>
+    A modern full-stack social app built with <b>Next.js</b> and a sleek, responsive UI.
+  </p>
+  <p>🚀 Improving my skills while building something awesome.</p>
+</div>
 
-This is a Next.js project created by me to improve my skills with the Next.js framework
+---
+
+## 📌 Project
+
+**NexCircle** is a Next.js project created by me to improve my skills with the Next.js framework and explore full-stack development in a modern and scalable way.
+
+This project combines powerful tools and clean UI design to deliver a responsive and interactive experience.
+
+---
+
+## 🧠 Technologies Used
+
+Here are the core tools and frameworks used in NexCircle:
+
+| Tech                                                                                                                        | Description                                     |
+| --------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
+| ![React](https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black)                         | JavaScript library for building user interfaces |
+| ![Next.js](https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=nextdotjs)                                 | React framework with SSR & API support          |
+| ![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)     | Utility-first CSS framework                     |
+| ![Prisma](https://img.shields.io/badge/-Prisma-2D3748?style=for-the-badge&logo=prisma)                                      | Type-safe ORM for SQL databases                 |
+| ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)          | Robust relational database                      |
+| ![Neon](https://img.shields.io/badge/-Neon-0A192F?style=for-the-badge&logo=data&logoColor=white)                            | Serverless Postgres hosting                     |
+| ![Clerk](https://img.shields.io/badge/-Clerk-4E46E5?style=for-the-badge&logo=clerk&logoColor=white)                         | User authentication and session management      |
+| ![ShadcnUI](https://img.shields.io/badge/-ShadcnUI-111827?style=for-the-badge)                                              | Accessible & composable UI components           |
+| ![React Icons](https://img.shields.io/badge/-React%20Icons-E91E63?style=for-the-badge&logo=react&logoColor=white)           | Icon library for React                          |
+| ![React Hot Toast](https://img.shields.io/badge/-React%20Hot%20Toast-FF6B6B?style=for-the-badge&logo=react&logoColor=white) | Beautiful toast notifications                   |
+
+---
+
+## 📸 Screenshots
+
+> Coming soon — UI preview and feature highlights!
+
+---
+
+## 🔧 Setup Instructions
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/your-username/nexcircle.git
+
+```
