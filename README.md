@@ -83,6 +83,6 @@ Here are the core tools and frameworks used in NexCircle:
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/nexcircle.git
+git clone https://github.com/Ing3rulDrogat/nexcircle.git
 
 ```
