@@ -35,6 +35,7 @@ export async function getPosts() {
         author: {
           select: {
             // Which parts of the author do we want to select and use
+            id: true,
             name: true,
             image: true,
             username: true,
