@@ -49,7 +49,7 @@ function PostCard({ post, dbUserId }: { post: Post; dbUserId: string | null }) {
       setIsLiking(true);
 
       setHasLiked(!hasLiked);
-      setOptimisticLikes(hasLiked ? -1 : 1); // If hasliked is false decrement is has liked is true increment
+      setOptimisticLikes((prev) => prev + (hasLiked ? -1 : 1)); // If hasliked is false decrement is has liked is true increment
       await toggleLike(post.id);
     } catch (error) {
       setOptimisticLikes(post._count.likes);
@@ -98,7 +98,6 @@ function PostCard({ post, dbUserId }: { post: Post; dbUserId: string | null }) {
               </Avatar>
             </Link>
 
-            {/* POST HEADER & TEXT CONTENT */}
             <div className="flex-1 min-w-0">
               <div className="flex items-start justify-between">
                 <div className="flex flex-col sm:flex-row sm:items-center sm:space-x-2 truncate">
@@ -125,7 +124,6 @@ function PostCard({ post, dbUserId }: { post: Post; dbUserId: string | null }) {
                     </span>
                   </div>
                 </div>
-                {/* Check if current user is the post author */}
                 {dbUserId === post.author.id && (
                   <DeleteAlertDialog
                     isDeleting={isDeleting}
@@ -139,7 +137,6 @@ function PostCard({ post, dbUserId }: { post: Post; dbUserId: string | null }) {
             </div>
           </div>
 
-          {/* POST IMAGE */}
           {post.image && (
             <div className="rounded-lg overflow-hidden">
               <img
@@ -150,7 +147,6 @@ function PostCard({ post, dbUserId }: { post: Post; dbUserId: string | null }) {
             </div>
           )}
 
-          {/* LIKE & COMMENT BUTTONS */}
           <div className="flex items-center pt-2 space-x-4">
             {user ? (
               <Button
@@ -198,11 +194,9 @@ function PostCard({ post, dbUserId }: { post: Post; dbUserId: string | null }) {
             </Button>
           </div>
 
-          {/* COMMENTS SECTION */}
           {showComments && (
             <div className="space-y-4 pt-4 border-t">
               <div className="space-y-4">
-                {/* DISPLAY COMMENTS */}
                 {post.comments.map((comment) => (
                   <div key={comment.id} className="flex space-x-3">
                     <Avatar className="size-8 flex-shrink-0">

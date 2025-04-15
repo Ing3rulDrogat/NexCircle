@@ -69,6 +69,7 @@ Here are the core tools and frameworks used in NexCircle:
 | ![ShadcnUI](https://img.shields.io/badge/-ShadcnUI-111827?style=for-the-badge)                                              | Accessible & composable UI components           |
 | ![React Icons](https://img.shields.io/badge/-React%20Icons-E91E63?style=for-the-badge&logo=react&logoColor=white)           | Icon library for React                          |
 | ![React Hot Toast](https://img.shields.io/badge/-React%20Hot%20Toast-FF6B6B?style=for-the-badge&logo=react&logoColor=white) | Beautiful toast notifications                   |
+| ![UploadThing](https://img.shields.io/badge/-UploadThing-8B5CF6?style=for-the-badge&logo=upload&logoColor=white)            | Simple & secure file uploads for the web        |
 
 ---
 

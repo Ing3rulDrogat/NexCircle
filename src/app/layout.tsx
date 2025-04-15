@@ -7,6 +7,11 @@ import Navbar from "@/components/Navbar";
 import Sidebar from "@/components/Sidebar";
 import { Toaster } from "react-hot-toast";
 
+export const metdata: Metadata = {
+  title: "NexCircle",
+  description: "A social media website powered by Next.js",
+};
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
