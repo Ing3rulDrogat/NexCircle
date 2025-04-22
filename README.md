@@ -75,7 +75,11 @@ Here are the core tools and frameworks used in NexCircle:
 
 ## 📸 Screenshots
 
-> Coming soon — UI preview and feature highlights!
+![Image](https://github.com/user-attachments/assets/b82896f1-d484-41d2-a553-d0f68f59f573)
+![Image](https://github.com/user-attachments/assets/90da06be-e825-4507-9bfd-43cd0981e386)
+![Image](https://github.com/user-attachments/assets/b13df7fd-72b7-452d-81d6-766833f811b9)
+![Image](https://github.com/user-attachments/assets/d8082bbd-8d74-4409-8671-69de58f6b208)
+![Image](https://github.com/user-attachments/assets/26272cb4-3dad-4935-ab2e-8761112e3331)
 
 ---
 
